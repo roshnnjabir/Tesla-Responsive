@@ -1,0 +1,483 @@
+body{
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.headerInner{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    height: 56px;
+    width: 100%;
+}
+.h-line{
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+.tesla_logo{
+    margin: 0;
+    display: flex; 
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.menu{
+    display: none;
+}
+.b-menu{
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-weight: 500;
+}
+.a{
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.schedule{
+    transition: text-decoration 0.5 ease;
+}
+.schedule:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.first_flex{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-top: 5%;
+}
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#awd{
+    font-size: 22.5px;
+    height: 40px;
+}
+.button_box{
+    position: absolute;
+    width: 100%;
+    height: 413px;
+    margin-top: 170px;
+    display: flexbox;
+    align-items: end;
+}
+.hov{
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.2s ease;
+}
+.hov:hover>button{
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.showmenu{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    transition: top .4s;
+}
+.showmen{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    transition: top .4s;
+}
+button{
+    background-color: inherit;
+}
+.hid{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: center;
+}
+.inner_button_box{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.inner_button_box>div{
+    padding: 10px;
+}
+.B-padding{
+    padding: 4px 24px;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 264px;
+}
+#B-one{
+    background-color: white;
+    color: rgb(57, 60, 65) !important;
+    transition: background-color 0.35s ease;
+}
+#B-one>a{
+    color: rgb(57, 60, 65) !important;
+}
+#B-one:hover{
+    background-color: rgba(248, 244, 244, 0.8);
+}
+#B-two{
+    background-color: black;
+    color: white;
+    transition: background-color 0.35s ease;
+}
+#B-two:hover{
+    background-color: rgba(21, 21, 21, 0.8);
+}
+#B-one-black{
+    font-size: 12px;
+    background-color: black;
+    border-radius: 0;
+    color: rgb(162, 163, 165);
+    font-weight: bold;
+    transition: background-color 0.35s ease;
+    letter-spacing: 2px;
+}
+#B-one-black:hover{
+    background-color: rgba(21, 21, 21, 0.8);
+}
+#B-two-black{
+    font-size: 12px;
+    background-color: black;
+    border-radius: 0;
+    color: rgb(162, 163, 165);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#B-two-black:hover{
+    background-color: rgba(21, 21, 21, 0.8);
+}
+#grey{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(162, 163, 165);;
+}
+.a{
+    height: 24px;
+    width: 120px;
+}
+.svg{
+    height: 100%;
+    width: 100%;
+}
+ol{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 8px;
+    list-style: none;
+}
+#ol{
+    padding-right: 20px;
+}
+.fl{
+    fill: rgb(23, 26, 32);
+}
+.b_padding{
+    border: 0;
+    padding: 4px 16px;
+}
+.font{
+    font-family: "Universal Sans Text", Arial, sans-serif;
+    font-size: 14px;
+}
+.fontD{
+    font-family: "Universal Sans Display", Arial, sans-serif;
+    font-size: 14px;
+}
+.model{
+    font-size: 40px;
+    height: 48px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+.bt{
+    font-weight: bold;
+}
+.footer_top{
+    width: 100%;
+    float: left;
+    padding: 5%;
+    background-color: black;
+    color: white;
+}
+.footer_top>div>ul{
+    list-style-type: none;
+    color: #D0D1D2;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+ul{
+    margin: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+}
+.footer_top>ul>li>a{
+    cursor: pointer;
+    padding-top: 3px;
+    text-decoration: underline !important;
+    color: #EEEE;
+}
+button{
+    cursor: pointer;
+}
+.footer_bottom{
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    float: left;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 15px;
+}
+.footer_bottom>ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer_bottom>ul>li{
+    cursor: pointer;
+}
+.drop-down{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+}
+.drop-down>div>i{
+    position: absolute;
+    top: 10px;
+    left: 95%;
+}
+#close{
+    display: none;
+}
+.scroll-drop{
+    width: 100%;
+    float: left;
+    height: 90vh;
+    background-color: white;
+    object-fit: cover;
+    overflow: hidden;
+    display: none;
+    padding-left: 20px;
+    overflow-y: visible;
+}
+.scroll-drop-up{
+    width: 100%;
+    height: 10vh;
+}
+.cl{
+    padding: 30px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-weight: var(--font-semi-bold);
+}
+.Language{
+    font-size: 12px;
+}
+.country{
+    font-size: 18px;
+}
+.internet{
+    padding: 0px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 1199px)
+{
+    .ol{
+        display: none;
+    }
+    .hid{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media only screen and (max-width: 839px)
+{
+    .ol{
+        display: none;
+    }
+    .tesla_logo{
+        padding-left: 15px;
+    }
+    .inner_button_box{
+        display: flex;
+        padding-top: 60vh;
+    }
+    #box-one{
+        padding-top: 60vh;
+    }
+    .first_flex{
+        margin-top: 10vh;
+    }
+    .B-padding{
+        height: 40px;
+        width: 100%;
+    }
+    .b_padding{
+        padding: 4px 12px;
+    }
+}
+@media only screen and (max-width: 599px)
+{
+    .ol{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .tesla_logo{
+        padding-left: 10px;
+    }
+    .model{
+        font-size: 28px;
+        height: 32px;
+    }
+    .B-padding{
+        height: 40px;
+        width: 100%;
+    }
+    .inner_button_box>div{
+        padding: 16px 24px 0px 24px;
+    }
+    .awd{
+        height: 20px;
+        padding-bottom: 15px;
+    }
+    .footer_bottom{
+        display: block;
+    }
+    #awd{
+        font-size: 20px;
+        height: 45px;
+    }
+    .first_flex{
+        margin-top: 15vh;
+    }
+    #box-one{
+        padding-top: 60vh;
+    }
+    .inner_button_box{
+        display: block;
+        padding-top: 60vh;
+    }
+}
+@media only screen and (min-width: 839px)
+{
+    .inner_button_box{
+        padding-top: 70vh;
+    }
+    #box-one{
+        padding-top: 70vh;
+    }
+    .first_flex{
+        margin-top: 10vh;
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+    .inner_button_box{
+        padding-top: 60vh;
+    }
+    #box-one{
+        padding-top: 60vh;
+    }
+}
+@media only screen and (min-height: 600px)
+{
+    .inner_button_box{
+        padding-top: 50vh;
+    }
+    #box-one{
+        padding-top: 50vh;
+    }
+}
+@media only screen and (max-height: 600px)
+{
+    .inner_button_box{
+        padding-top: 50vh;
+    }
+    #box-one{
+        padding-top: 50vh;
+    }
+}
+@media only screen and (max-height: 550px)
+{
+    .inner_button_box{
+        padding-top: 45vh;
+    }
+    #box-one{
+        padding-top: 45vh;
+    }
+}
+@media only screen and (max-height: 500px)
+{
+    .inner_button_box{
+        padding-top: 40vh;
+    }
+    #box-one{
+        padding-top: 40vh;
+    }
+}
+@media only screen and (max-height: 450px)
+{
+    .inner_button_box{
+        padding-top: 35vh;
+    }
+    #box-one{
+        padding-top: 35vh;
+    }
+}
+@media only screen and (max-height: 400px)
+{
+    .inner_button_box{
+        padding-top: 30vh;
+    }
+    #box-one{
+        padding-top: 30vh;
+    }
+}
+@media only screen and (max-height: 350px)
+{
+    .inner_button_box{
+        padding-top: 25vh;
+    }
+    #box-one{
+        padding-top: 25vh;
+    }
+}
